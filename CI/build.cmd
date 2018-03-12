@@ -31,6 +31,7 @@ cmake ^
 	-DENABLE_SCRIPTING=false ^
 	-DCEF_ROOT_DIR=%CefPath% ^
 	-DCEF_WRAPPER_DIR="%CefBuildPath%\libcef_dll_wrapper\Release" ^
+	-DUSE_STATIC_CRT=false ^
 	-DBUILD_BROWSER=true ^
 	-DCOMPILE_D3D12_HOOK=true
 
