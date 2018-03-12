@@ -6,7 +6,8 @@ cmake ^
 	-B"%CefBuildPath%" ^
 	-DCEF_RUNTIME_LIBRARY_FLAG="/Md"
 
-cmake --build "%CefBuildPath%" --config "%BuildConfig%"
+cmake --build "%CefBuildPath%" --config Release
+cmake --build "%CefBuildPath%" --config Debug
 
 cmake ^
 	-G"%CmakeGenerator%" ^
