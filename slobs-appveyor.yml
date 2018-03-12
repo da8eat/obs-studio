@@ -53,5 +53,3 @@ test: off
 cache:
   - $(AMFZip)
   - $(CefBz2)
-  - build32\CMakeCache.txt
-  - build64\CMakeCache.txt
